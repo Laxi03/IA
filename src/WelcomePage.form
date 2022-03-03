@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="WelcomePage">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="439"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="7378c" class="javax.swing.JLabel" binding="WelcomeLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-917514"/>
+          <font name="Arial" size="16"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Welcome to cash-enveloping, keep your finances at one place!"/>
+        </properties>
+      </component>
+      <component id="adaf8" class="javax.swing.JButton" binding="InfoButton">
+        <constraints>
+          <grid row="1" column="0" row-span="5" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="147" height="78"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Press here for more information"/>
+        </properties>
+      </component>
+      <component id="474f7" class="javax.swing.JButton" binding="RecordPurchaseButton">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="147" height="78"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Record Puchase"/>
+        </properties>
+      </component>
+      <component id="34d75" class="javax.swing.JButton" binding="PurchaseHistoryButton">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="147" height="78"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Purchase History"/>
+        </properties>
+      </component>
+      <component id="f1ed4" class="javax.swing.JButton" binding="CheckAmountButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="147" height="78"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Check Out Your Envelopes"/>
+        </properties>
+      </component>
+      <component id="58ab2" class="javax.swing.JButton" binding="EnterPanel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="147" height="78"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Enter New Income"/>
+        </properties>
+      </component>
+      <component id="22402" class="javax.swing.JButton" binding="Analytics">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="147" height="78"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Analytics"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
